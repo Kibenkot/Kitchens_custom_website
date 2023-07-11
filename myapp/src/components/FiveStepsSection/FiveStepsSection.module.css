@@ -1,0 +1,135 @@
+.wrapper{
+    width: auto;
+    height: auto;
+    background-image: url(./media/shutterstock_4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+
+    padding: 80px 0px 50px 0px;
+}
+
+.container_title{
+    display: flex;
+    flex-direction: column;
+}
+
+.container_title h3{
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 55px;
+    color: var(--brand-color3);
+}
+
+span{
+    color: var(--brand-color1);
+}
+
+.container_line{
+    width: 71px;
+    height: 20px;
+    border-bottom: 5px solid var(--brand-color1);
+}
+
+.container_steps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_steps_first{
+    margin-top: 80px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 45px;
+}
+
+.container_steps_second{
+    width: 66.6%;
+    margin-bottom: 50px;
+    margin-top: 45px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 45px;
+}
+
+.steps_item{
+    width: 349px;
+    height: 316px;
+    border-radius: 15px;
+
+    background-color: var(--brand-color4);
+    box-shadow: 0px 4px 20px 0px rgba(150, 150, 150, 0.25);
+}
+
+.step_num{
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    border: 1px solid var(--brand-color1);
+    margin-right: 14px;
+
+    color: var(--brand-color1);
+    font-size:16px;
+    font-weight: 800;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    height: 35px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin-bottom: 14px;
+}
+
+.title h4{
+    font-size: 16px;
+    font-weight: 700px;
+}
+
+.title_text{
+    width: 301px;
+    height: 159px;
+    padding: 0px 0px 0px 20px;
+    margin-top: 10px;
+
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+
+}
+
+.title_text p{
+    font-size: 14px;
+    font-weight: 600px;
+    line-height: 22.4px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  .container_btn{
+    height: 108px;
+    width: 100%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_btn > div{
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

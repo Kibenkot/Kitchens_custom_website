@@ -1,0 +1,62 @@
+.container_title{
+    display: flex;
+    flex-direction: column;
+}
+
+.container_title h3{
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 55px;
+    color: var(--brand-color3);
+}
+
+span{
+    color: var(--brand-color1);
+}
+
+.container_line{
+    width: 71px;
+    height: 20px;
+    border-bottom: 5px solid var(--brand-color1);
+
+}
+
+.container_benefits_all{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+
+    margin-top: 100px;
+}
+
+.benefit_item{
+    width: 345px;
+    height: 252px;
+    margin-bottom: 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.benefit_item h4{
+    font-size:18px;
+    font-weight:700;
+    color: var(--brand-color3);
+}
+
+.container_btn{
+    height: 108px;
+    width: 100%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_btn > div{
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

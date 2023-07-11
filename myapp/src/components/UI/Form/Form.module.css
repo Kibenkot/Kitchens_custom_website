@@ -1,0 +1,172 @@
+.container_form_btn{
+    display: flex;
+    flex-direction: row;
+}
+
+.consultation_get{
+    display: flex;
+    flex-direction: column;
+}
+
+.comment_error{
+    color: var(--brand-color1);
+    font-weight: 500;
+    font-size: 15px;
+
+    width: 430px;
+    text-align: center;
+}
+
+.consultation_error{
+    width: 300px;
+}
+
+.phone{
+    width: 245px;
+    height: 54px;
+    padding-left: 20px;
+    border: 1px solid var(--brand-color1);
+    border-radius: 5px 0px 0px 5px;
+
+    color: var(--brand-color5);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15px;
+    
+}
+
+.phone_modal{
+    width: 241px;
+    height: 54px;
+    padding-left: 10px;
+    border: 1px solid var(--brand-color3);
+    border-radius: 5px;
+    margin-right: 10px;
+
+    color: var(--brand-color6);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    
+}
+
+
+.phone_callback_section{
+    width: 245px;
+    height: 54px;
+    padding-left: 20px;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+
+    color: var(--brand-color5);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+
+.consultation_phone{
+    width: 300px;
+    height: 49px;
+    padding-left: 15px;
+    margin: 10px 0px;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--brand-color7);
+
+    color: var(--brand-color8);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.phone_number{
+    width: 300px;
+    height: 49px;
+    padding-left: 15px;
+    margin: 10px 0px;
+    border: 2px solid var(--brand-color9);
+    border-radius: 4px;
+    background-color: var(--brand-color4);
+
+    color: var(--brand-color3);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+
+    text-align:center;
+
+}
+
+.btn{
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.consultation_btn{
+    width: 300px;
+    height: 49px;
+    border-radius: 5px;
+    background-color: var(--brand-color1);
+    border: 1px solid var(--brand-color1);
+
+    color: var(--brand-color4);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+}
+
+.get_discount{
+    width: 201px;
+    height: 54px;
+    border-radius: 0 5px 5px 0;
+    background-color: var(--brand-color1);
+    border: 1px solid var(--brand-color1);
+
+    color: var(--brand-color4);
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 15px;
+}
+
+.get_price{
+    width: 240px;
+    height: 54px;
+    border-radius: 5px;
+    background-color: var(--brand-color1);
+    border: 1px solid var(--brand-color1);
+
+    color: var(--brand-color4);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+}
+
+
+.ask_question_btn{
+    width: 222px;
+    height: 54px;
+    border-radius: 0 5px 5px 0;
+    background-color: var(--brand-color1);
+    border: 1px solid var(--brand-color1);
+
+    color: var(--brand-color4);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.num_phone:hover{
+    border: 3px solid red;
+ }
+
+ .num_phone:focus-visible{
+    outline-color: red ;
+ }
+
+ .btn:hover{
+    box-shadow: 0px 4px 15px 0 rgba(48, 37, 37, 0.25);
+ }

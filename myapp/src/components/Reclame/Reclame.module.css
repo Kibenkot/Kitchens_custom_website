@@ -1,0 +1,42 @@
+.wrapper{
+    width: 506px;
+    height: 350px;
+}
+
+h2{
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 69px;
+    color: var(--brand-color3);
+}
+
+span{
+    color: var(--brand-color1);
+}
+
+.info{
+    width: 335px;
+    height: 160px;
+    margin-top: 50px;
+
+}
+
+.info_item{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.info_item_img{
+    width: 44px;
+    height: 44px;
+}
+
+.info_item p{
+    font-size: 22px;
+    font-weight: 600;
+    margin-left: 15px;
+    line-height: 31px;
+
+}

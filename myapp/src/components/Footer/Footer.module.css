@@ -1,0 +1,78 @@
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 80px 0px 50px 0px;
+}
+
+.title h2{
+    font-size: 48px;
+    font-weight: 800;
+    color: var(--brand-color3);
+}
+
+
+.map{
+    position: relative;
+}
+
+.info_map{
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    position: absolute;
+    bottom: 145px;
+    right: 10px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h4{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+p{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.footer_bottom{
+    width: 1920px; ;
+    height: 119px;
+    background-color: var(--brand-color10);
+
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text{
+    width: 100%;
+    height: 32px;
+   
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+}
+
+.text_left{
+    width: 58%;
+}
+
+.text_center,
+.text_right{
+    width: 21%;
+}
+
+.text_center p,
+.text_right p,
+.text_left p{
+    color:  var(--brand-color11);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+}

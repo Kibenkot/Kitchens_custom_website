@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+
+:root{
+  --brand-color1:#E3010F;
+  --brand-color2:#262626;
+  --brand-color3:#0C0C0C;
+  --brand-color4: #FFFFFF;
+  --brand-color5: #C7C7C7;
+  --brand-color6:#4B4B4B;
+  --brand-color7:#F9F9F9;
+  --brand-color8:#E8E8E8;
+  --brand-color9:#818181;
+  --brand-color10:#F1F1F1;
+  --brand-color11: #A0A8B1;
+
+
+}
+
+
+.container{
+  width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container_bottom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 119px;
+}
+
+#scroll_top{
+  position: fixed;
+  bottom: 150px;
+  right: 70px;
+  font-size: 40px; 
+  z-index: 9000;
+  color: var(--brand-color1);
+
+}
+

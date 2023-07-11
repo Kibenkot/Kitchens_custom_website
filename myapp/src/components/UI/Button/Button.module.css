@@ -1,0 +1,110 @@
+.btn{
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover{
+    box-shadow: 0px 4px 15px 0 rgba(48, 37, 37, 0.25);
+ }
+
+.calculate_cost{
+    width: 201px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--brand-color1);
+
+    color: var(--brand-color4);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+}
+
+.catalog_get{
+    width: 201px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--brand-color1);
+    background-color: var(--brand-color4);
+
+    color: var(--brand-color2);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+}
+
+.catalog_get_all{
+    width: 201px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--brand-color1);
+    background-color: var(--brand-color1);
+
+    color: var(--brand-color4);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+}
+
+.my_project{
+    width: 300px;
+    height: 49px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--brand-color1);
+    background-color: var(--brand-color4);
+    margin: 10px 0px;
+
+    color: var(--brand-color3);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+}
+
+.consultation_btn{
+    width: 300px;
+    height: 49px;
+    border-radius: 5px;
+    background-color: var(--brand-color1);
+    border: 1px solid var(--brand-color1);
+
+    color: var(--brand-color4);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+}
+
+.calculate_cost_second,
+.get_design_project{
+    width: 286px;
+    height: 49px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--brand-color1);
+    background-color: var(--brand-color1);
+
+    color: var(--brand-color4);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+}
+
+.get_whole_catalog{
+    width: 286px;
+    height: 49px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--brand-color1);
+    background-color: var(--brand-color4);
+
+    color: var(--brand-color3);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+}

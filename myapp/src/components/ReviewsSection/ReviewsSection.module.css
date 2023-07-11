@@ -1,0 +1,27 @@
+.container_title{
+    display: flex;
+    flex-direction: column;
+    margin: 100px 0px 50px 0px;
+ }
+ 
+ .container_title h3{
+     font-size: 48px;
+     font-weight: 800;
+     line-height: 55px;
+     color: var(--brand-color3);
+ }
+ 
+ span{
+     color: var(--brand-color1);
+ }
+ 
+ .container_line{
+     width: 71px;
+     height: 20px;
+     border-bottom: 5px solid var(--brand-color1);
+ 
+ }
+
+ .container_carusel{
+    margin-bottom: 100px;
+ }
